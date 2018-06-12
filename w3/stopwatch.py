@@ -55,8 +55,8 @@ def stop():
         timer.stop()
         stopped = True
     
-    if current_time % 10 == 0:
-        success_times += 1
+        if current_time % 10 == 0:
+            success_times += 1
     
     
 def reset():
